@@ -20,11 +20,11 @@ export default function Landing() {
     }, []);
 
     return (
-        <div className="relative top-0  md:top-0 flex  md:h-auto min-h-[calc(100vh-3.5rem)] w-full overflow-hidden rounded-md bg-black/[0.96] antialiased md:items-center md:justify-center">
+        <div className="relative top-0  md:top-0 flex h-[500px]   md:h-auto md:min-h-[calc(100vh-3.5rem)] w-full overflow-hidden rounded-md bg-black/[0.96] antialiased md:items-center md:justify-center">
             {/* Grid background overlay */}
             <div
                 className={cn(
-                    "pointer-events-none absolute inset-0 [background-size:40px_40px] select-none",
+                    "pointer-events-none h-[500px] sm:h-full absolute inset-0 [background-size:40px_40px] select-none",
                     "[background-image:linear-gradient(to_right,#171717_1px,transparent_1px),linear-gradient(to_bottom,#171717_1px,transparent_1px)]",
                     "scale-125 md:scale-100"
                 )}
@@ -72,16 +72,16 @@ export default function Landing() {
                 </div>
 
                 {/* Fixed Button Section */}
-                <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center sm:gap-6 md:mt-12 md:gap-6">
+                <div className="mt-8 flex justify-center sm:px-0 gap-4  items-center  sm:flex-row  sm:gap-6 md:mt-12 md:gap-6">
                     <Link 
                         href="https://cal.com/mohammed-niyaf-s.m-v01mfl/15min" 
-                        className="inline-flex w-full max-w-[200px] sm:w-auto sm:max-w-none"
+                        className=" max-w-[200px] sm:w-auto sm:max-w-none"
                     >
-                        <Button className="w-full cursor-pointer px-6 py-4 text-sm sm:px-8 sm:py-4 sm:text-base md:px-10">
+                        <Button className=" w-28 sm:w-full cursor-pointer px-6 py-4 text-sm sm:px-8 sm:py-4 sm:text-base md:px-10">
                             Book a Meet
                         </Button>
                     </Link>
-                    <Button className="w-full max-w-[200px] cursor-pointer px-6 py-4 text-sm sm:w-auto sm:max-w-none sm:px-8 sm:py-4 sm:text-base md:px-10">
+                    <Button className="w-28 max-w-[200px] cursor-pointer px-6 py-4 text-sm sm:w-auto sm:max-w-none sm:px-8 sm:py-4 sm:text-base md:px-10">
                         Get in Touch
                     </Button>
                 </div>

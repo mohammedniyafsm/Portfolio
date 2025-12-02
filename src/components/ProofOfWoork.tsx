@@ -7,12 +7,12 @@ import Link from 'next/link'
 
 function ProofOfWoork() {
     return (
-        <div className='py-26'>
+        <div className='py-20 md:py-26'>
             <div>
                 <h1 className={`text-center text-3xl font-bold ${bricolage_grotesque}`}>Proof of Work</h1>
             </div>
 
-            <div className="grid grid-cols-2 gap-4  justify-center py-12 max-w-[700px] mx-auto ">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center md:px-0 px-14  justify-center py-12 max-w-[700px] mx-auto ">
                 <div className="cursor-pointer flex flex-col gap-3 border border-[#262626] min-h-[300px] w-[340px] rounded-xl px-6 py-6">
                     <div className="">
                         <Image
