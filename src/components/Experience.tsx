@@ -16,18 +16,18 @@ function Experience() {
                 <div className="cursor-pointer flex items-center justify-between w-full min-h-[80px] p-4 sm:p-6 hover:bg-gray-50 dark:hover:bg-gray-800/50 rounded-lg transition-colors duration-200">
                     <div className="flex items-center gap-4 w-full">
                         <div className="flex-shrink-0">
-                            <Image 
-                                src="/b.png" 
-                                alt="Bridgeon logo" 
-                                width={40} 
-                                height={40} 
+                            <Image
+                                src="/b.png"
+                                alt="Bridgeon logo"
+                                width={40}
+                                height={40}
                                 className="w-10 h-10 sm:w-12 sm:h-12"
                             />
                         </div>
                         <div className="flex items-center justify-between flex-1 min-w-0">
                             <div className="flex flex-col min-w-0">
                                 <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 sm:gap-0">
-                                    <h2 className={`${bricolage_grotesque} text-lg sm:text-xl font-semibold whitespace-nowrap`}>
+                                    <h2 className={`${bricolage_grotesque} text-lg sm:text-xl font-semibold sm:whitespace-nowrap`}>
                                         FullStack Intern
                                     </h2>
                                     <p className="text-sm text-gray-500 dark:text-gray-300 whitespace-nowrap sm:ml-4">
@@ -46,18 +46,18 @@ function Experience() {
                 <div className="cursor-pointer flex items-center justify-between w-full min-h-[80px] p-4 sm:p-6 hover:bg-gray-50 dark:hover:bg-gray-800/50 rounded-lg transition-colors duration-200">
                     <div className="flex items-center gap-4 w-full">
                         <div className="flex-shrink-0">
-                            <Image 
-                                src="/p.png" 
-                                alt="Phemesoftware logo" 
-                                width={40} 
-                                height={40} 
+                            <Image
+                                src="/p.png"
+                                alt="Phemesoftware logo"
+                                width={40}
+                                height={40}
                                 className="w-10 h-10 sm:w-12 sm:h-12"
                             />
                         </div>
                         <div className="flex items-center justify-between flex-1 min-w-0">
                             <div className="flex flex-col min-w-0">
                                 <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 sm:gap-0">
-                                    <h2 className={`${bricolage_grotesque} text-lg sm:text-xl font-semibold whitespace-nowrap`}>
+                                    <h2 className={`${bricolage_grotesque} text-lg sm:text-xl font-semibold sm:whitespace-nowrap`}>
                                         Group Project
                                     </h2>
                                     <p className="text-sm text-gray-500 dark:text-gray-300 whitespace-nowrap sm:ml-4">
@@ -76,18 +76,18 @@ function Experience() {
                 <div className="cursor-pointer flex items-center justify-between w-full min-h-[80px] p-4 sm:p-6 hover:bg-gray-50 dark:hover:bg-gray-800/50 rounded-lg transition-colors duration-200">
                     <div className="flex items-center gap-4 w-full">
                         <div className="flex-shrink-0">
-                            <Image 
-                                src="/ibm.png" 
-                                alt="IBM logo" 
-                                width={40} 
-                                height={40} 
+                            <Image
+                                src="/ibm.png"
+                                alt="IBM logo"
+                                width={40}
+                                height={40}
                                 className="w-10 h-10 sm:w-12 sm:h-12"
                             />
                         </div>
                         <div className="flex items-center justify-between flex-1 min-w-0">
                             <div className="flex flex-col min-w-0">
                                 <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 sm:gap-0">
-                                    <h2 className={`${bricolage_grotesque} text-lg sm:text-xl font-semibold whitespace-nowrap`}>
+                                    <h2 className={`${bricolage_grotesque} text-lg sm:text-xl font-semibold sm:whitespace-nowrap`}>
                                         Cybersecurity & Cloud Computing Trainee
                                     </h2>
                                     <p className="text-sm text-gray-500 dark:text-gray-300 whitespace-nowrap sm:ml-4">
