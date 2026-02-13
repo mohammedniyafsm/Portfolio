@@ -159,6 +159,114 @@ function ProofOfWoork() {
                                 Source</button></Link>
                     </div>
                 </div>
+                <div className="cursor-pointer flex flex-col gap-3 border border-[#262626] min-h-[300px] w-[340px] rounded-xl px-6 py-6">
+                    <div className="">
+                        <Image
+                            src="/cardRush.png"     // ← correct path
+                            alt="proof"
+                            width={40}
+                            height={40}
+                            className="object-contain "
+                        />
+                    </div>
+                    <div className="">
+                        <h1 className={`${bricolage_grotesque} font-bold text-lg`}>Card Rush </h1>
+                    </div>
+                    <div className="">
+                        <p className={`${inter} text-sm font-medium leading-4.5 text-[#D1D5DB]`}>
+                            Card Rush is a real-time card game that allows users to claim cards and earn points with cooldown rules in a competitive arena.
+                        </p>
+                    </div>
+                    <div className="flex flex-wrap gap-1  ">
+                        <span className={`flex items-center border border-[#edeef0] text-[#edeef0] rounded-[3.8px] px-1 py-0.5 text-[10px] hover:bg-[#edeef0] hover:text-background ${bricolage_grotesque}`}>React js</span>
+                        <span className={`flex items-center border border-[#edeef0] text-[#edeef0] rounded-[3.8px] px-1 py-0.5 text-[10px] hover:bg-[#edeef0] hover:text-background ${bricolage_grotesque}`}>Typescript</span>
+                        <span className={`flex items-center border border-[#edeef0] text-[#edeef0] rounded-[3.8px] px-1 py-0.5 text-[10px] hover:bg-[#edeef0] hover:text-background ${bricolage_grotesque}`}>Node js</span>
+                        <span className={`flex items-center border border-[#edeef0] text-[#edeef0] rounded-[3.8px] px-1 py-0.5 text-[10px] hover:bg-[#edeef0] hover:text-background ${bricolage_grotesque}`}>WebSockets</span>
+                        <span className={`flex items-center border border-[#edeef0] text-[#edeef0] rounded-[3.8px] px-1 py-0.5 text-[10px] hover:bg-[#edeef0] hover:text-background ${bricolage_grotesque}`}>Express.js</span>
+                        <span className={`flex items-center border border-[#edeef0] text-[#edeef0] rounded-[3.8px] px-1 py-0.5 text-[10px] hover:bg-[#edeef0] hover:text-background ${bricolage_grotesque}`}>MongoDB</span>
+                        <span className={`flex items-center border border-[#edeef0] text-[#edeef0] rounded-[3.8px] px-1 py-0.5 text-[10px] hover:bg-[#edeef0] hover:text-background ${bricolage_grotesque}`}>Tailwind CSS</span>
+                    </div>
+                    <div className="flex gap-1 pt-4">
+                        <Link href={"https://cardhunt.niyaf.xyz/"} >
+                            <button className={`bg-foreground text-background rounded-[3px] text-[10px] px-2 py-1 flex gap-2 ${inter}`}>
+                                <Image
+                                    src="/global.png"     // ← correct path
+                                    alt="proof"
+                                    width={10}
+                                    height={10}
+                                    className="object-contain "
+                                />
+                                Website</button></Link>
+                        <Link href={"https://github.com/mohammedniyafsm/Inboxkit"}>
+                            <button className={`bg-foreground text-background rounded-[3px] text-[10px] px-2 py-1 flex gap-2 ${inter}`}>
+                                <Image
+                                    src="/github.png"     // ← correct path
+                                    alt="proof"
+                                    width={10}
+                                    height={10}
+                                    className="object-contain "
+                                />
+                                Source</button></Link>
+                    </div>
+                </div>
+                <div className="cursor-pointer flex flex-col gap-3 border border-[#262626] min-h-[300px] w-[340px] rounded-xl px-6 py-6">
+                    <div className="">
+                        {/* <Image
+                            // src="https://res.cloudinary.com/dnkenioua/image/upload/v1764999707/Group_ik1uap.png"     // ← correct path
+                            alt="proof"
+                            width={40}
+                            height={40}
+                            className="object-contain "
+                        /> */}
+                    </div>
+                    <div className="">
+                        <h1 className={`${bricolage_grotesque} font-bold text-lg`}>Townify ( 2D metaverse )</h1>
+                    </div>
+                    <div className="">
+                        <p className={`${inter} text-sm font-medium leading-4.5 text-[#D1D5DB]`}>
+                            Townify is a 2D metaverse platform that allows users to explore virtual spaces, interact with others, and engage in real-time social experiences.                        </p>
+                    </div>
+                    <div className="flex flex-wrap gap-1  ">
+                        <span className={`flex items-center border border-[#edeef0] text-[#edeef0] rounded-[3.8px] px-1 py-0.5 text-[10px] hover:bg-[#edeef0] hover:text-background ${bricolage_grotesque}`}>React js</span>
+                        <span className={`flex items-center border border-[#edeef0] text-[#edeef0] rounded-[3.8px] px-1 py-0.5 text-[10px] hover:bg-[#edeef0] hover:text-background ${bricolage_grotesque}`}>Typescript</span>
+                        <span className={`flex items-center border border-[#edeef0] text-[#edeef0] rounded-[3.8px] px-1 py-0.5 text-[10px] hover:bg-[#edeef0] hover:text-background ${bricolage_grotesque}`}>Phaser</span>
+                        <span className={`flex items-center border border-[#edeef0] text-[#edeef0] rounded-[3.8px] px-1 py-0.5 text-[10px] hover:bg-[#edeef0] hover:text-background ${bricolage_grotesque}`}>Node js</span>
+                        <span className={`flex items-center border border-[#edeef0] text-[#edeef0] rounded-[3.8px] px-1 py-0.5 text-[10px] hover:bg-[#edeef0] hover:text-background ${bricolage_grotesque}`}>Express.js</span>
+                        <span className={`flex items-center border border-[#edeef0] text-[#edeef0] rounded-[3.8px] px-1 py-0.5 text-[10px] hover:bg-[#edeef0] hover:text-background ${bricolage_grotesque}`}>WebSockets</span>
+                        <span className={`flex items-center border border-[#edeef0] text-[#edeef0] rounded-[3.8px] px-1 py-0.5 text-[10px] hover:bg-[#edeef0] hover:text-background ${bricolage_grotesque}`}>WebRTC</span>
+                        <span className={`flex items-center border border-[#edeef0] text-[#edeef0] rounded-[3.8px] px-1 py-0.5 text-[10px] hover:bg-[#edeef0] hover:text-background ${bricolage_grotesque}`}>PostgreSQL</span>
+                        <span className={`flex items-center border border-[#edeef0] text-[#edeef0] rounded-[3.8px] px-1 py-0.5 text-[10px] hover:bg-[#edeef0] hover:text-background ${bricolage_grotesque}`}>Prisma ORM</span>
+                        <span className={`flex items-center border border-[#edeef0] text-[#edeef0] rounded-[3.8px] px-1 py-0.5 text-[10px] hover:bg-[#edeef0] hover:text-background ${bricolage_grotesque}`}>Redis</span>
+                        <span className={`flex items-center border border-[#edeef0] text-[#edeef0] rounded-[3.8px] px-1 py-0.5 text-[10px] hover:bg-[#edeef0] hover:text-background ${bricolage_grotesque}`}>Docker</span>
+                        <span className={`flex items-center border border-[#edeef0] text-[#edeef0] rounded-[3.8px] px-1 py-0.5 text-[10px] hover:bg-[#edeef0] hover:text-background ${bricolage_grotesque}`}>Oauth</span>
+                        <span className={`flex items-center border border-[#edeef0] text-[#edeef0] rounded-[3.8px] px-1 py-0.5 text-[10px] hover:bg-[#edeef0] hover:text-background ${bricolage_grotesque}`}>Pub/Sub</span>
+                        <span className={`flex items-center border border-[#edeef0] text-[#edeef0] rounded-[3.8px] px-1 py-0.5 text-[10px] hover:bg-[#edeef0] hover:text-background ${bricolage_grotesque}`}>Nodemailer</span>
+                        <span className={`flex items-center border border-[#edeef0] text-[#edeef0] rounded-[3.8px] px-1 py-0.5 text-[10px] hover:bg-[#edeef0] hover:text-background ${bricolage_grotesque}`}>Tailwind CSS</span>
+                        <span className={`flex items-center border border-[#edeef0] text-[#edeef0] rounded-[3.8px] px-1 py-0.5 text-[10px] hover:bg-[#edeef0] hover:text-background ${bricolage_grotesque}`}>TurboRepo</span>
+                    </div>
+                    <div className="flex gap-1 pt-4">
+                        <Link href={"https://github.com/mohammedniyafsm/Townify"} >
+                            <button className={`bg-foreground text-background rounded-[3px] text-[10px] px-2 py-1 flex gap-2 ${inter}`}>
+                                <Image
+                                    src="/global.png"     // ← correct path
+                                    alt="proof"
+                                    width={10}
+                                    height={10}
+                                    className="object-contain "
+                                />
+                                Coming Soon</button></Link>
+                        <Link href={"https://github.com/mohammedniyafsm/Townify"}>
+                            <button className={`bg-foreground text-background rounded-[3px] text-[10px] px-2 py-1 flex gap-2 ${inter}`}>
+                                <Image
+                                    src="/github.png"     // ← correct path
+                                    alt="proof"
+                                    width={10}
+                                    height={10}
+                                    className="object-contain "
+                                />
+                                Source</button></Link>
+                    </div>
+                </div>
 
             </div>
         </div>
