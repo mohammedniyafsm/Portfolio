@@ -8,7 +8,7 @@ function page() {
     return (
     <div className = "bg-background w-screen h-screen flex justify-center " >
         <div className="w-[900px] h-screen border-[#ffffff1f]">
-            <Navbar />
+            {/* <Navbar /> */}
           
             <ProofOfWoork />
              <div className="py-10 px-24">
