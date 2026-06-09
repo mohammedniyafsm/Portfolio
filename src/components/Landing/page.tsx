@@ -138,7 +138,7 @@ export default function Landing() {
                 </h1>
 
                 <p className="hero-aka">
-                    Fullstack Engineer | Web3 Developer 
+                    Fullstack Engineer & Web3 Developer 
                 </p>
 
                 <p className="hero-bio">
