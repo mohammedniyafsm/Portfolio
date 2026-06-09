@@ -1,5 +1,3 @@
-import Landing from '@/components/Landing'
-import Navbar from '@/components/Navbar'
 import ProofOfWoork from '@/components/ProofOfWoork'
 import Link from 'next/link'
 import React from 'react'

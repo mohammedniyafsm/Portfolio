@@ -48,12 +48,12 @@ function Contact() {
     };
 
     return (
-        <div id="contact" className='scroll-mt-28 flex-col pt-8 px-4 sm:px-8 md:px-16 lg:px-24 xl:px-32 w-full'>
-            <div className={`text-xl sm:text-2xl sm:px-0 px-6 font-semibold ${bricolage_grotesque} flex  text-center`}>
+        <div id="contact" className='scroll-mt-28 flex-col items-start  pt-8 px-4 sm:px-0 md:px-0 lg:px-12 xl:px-12 w-full'>
+            <div className={`text-xl sm:text-2xl flex justify-center sm:px-0 px-6 font-semibold ${bricolage_grotesque} flex  text-center`}>
                 Lets Connect
             </div>
 
-            <div className="w-full max-w-2xl mx-auto">
+            <div className="w-full  mx-auto">
                 <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 py-8 sm:py-10 items-center px-4 sm:px-0">
                     <Link href={"https://cal.com/mohammed-niyaf-s.m-v01mfl/15min"} className="w-full sm:w-auto">
                         <button className={`cursor-pointer bg-[#4ade80] items-center text-sm ${bricolage_grotesque} rounded-md px-4 py-2.5 flex gap-2 text-black justify-center w-full sm:w-auto hover:bg-[#3bc96e] transition-colors`}>
@@ -70,11 +70,11 @@ function Contact() {
                 </div>
             </div>
 
-            <h1 className={`${bricolage_grotesque} py-4 px-4 sm:px-0 sm:py-2 text-lg text-left max-w-2xl mx-auto`}>
+            <h1 className={`${bricolage_grotesque} py-4 px-4 sm:px-0 sm:py-2 text-lg text-left  mx-auto`}>
                 you can mail also
             </h1>
 
-            <div className="pt-4 px-4 sm:px-0 sm:pt-6 flex flex-col gap-4 max-w-2xl mx-auto">
+            <div className="pt-4 px-4 sm:px-0 sm:pt-6 flex flex-col gap-4  mx-auto">
                 <div className="flex flex-col gap-1">
                     <label htmlFor="email" className={`${bricolage_grotesque} text-sm `}>Your Email</label>
                     <Input
@@ -98,7 +98,7 @@ function Contact() {
                     <Button
                         onClick={handleSubmit}
                         disabled={loading}
-                        className={`w-full ${bricolage_grotesque} cursor-pointer disabled:opacity-50`}
+                        className={`w-full ${bricolage_grotesque} bg-amber-50 text-black hover:bg-gray-200 cursor-pointer disabled:opacity-50`}
                     >
                         {loading ? 'Sending...' : 'Send Message'}
                     </Button>
@@ -111,8 +111,8 @@ function Contact() {
                 </div>
             </div>
 
-            <div className="py-8 sm:py-10 text-center">
-                <Link href={"https://x.com/n1yaf_/"} className="text-sm sm:text-base">
+            <div className="py-8 sm:py-0 ">
+                <Link href={"https://x.com/n1yaf_/"} className="text-sm sm:text-xs">
                     designed and developed by <span className='text-[#70a2ef] cursor-pointer hover:underline'>Niyaf</span>
                 </Link>
             </div>
